@@ -8,7 +8,6 @@ import "./Team.css";
 function Data() {
   return (
     <>
-    <h1 className="hh">Happy Customer</h1>
       <div className="about">
         <div className="image">
           <img src={work1} alt="" />
