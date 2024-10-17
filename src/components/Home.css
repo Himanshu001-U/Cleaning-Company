@@ -1,0 +1,150 @@
+
+.main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    margin-left: 150px;
+    max-width: 600px;
+    min-width: 300px;
+    max-height: 600px;
+}
+
+
+
+.main h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.main p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    margin: 0;
+}
+
+.main button:hover {
+    background-color: #1854a3;
+}
+
+.main button {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1a66f3;
+    color: white;
+    padding: 18px;
+    cursor: pointer;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 140px;
+    padding: 20px;
+    gap: 80px;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    padding-bottom: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.info h2 {
+    color: rgb(32, 140, 241);
+    font-size: 32px;
+    font-weight: 350;
+
+}
+
+.info h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.info p {
+    padding-top: 20px;
+    font-size: 22px;
+    color: rgb(133, 131, 131);
+}
+
+.img img {
+    width: 90%;
+    height: 600px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.para {
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 0;
+    color: rgb(133, 131, 131);
+    text-align: center;
+}
+
+.head {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(38, 182, 248);;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0;
+}
+
+.exp {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+    color: black;
+    width: 94%;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.exp1 , .exp2 , .exp3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp h1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.exp p {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}

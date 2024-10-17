@@ -1,0 +1,61 @@
+
+.container {
+    background-color: white;
+    margin-top: 250px;
+    padding: 50px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: white;
+    color: rgb(38, 182, 248);
+}
+
+.service h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 350;
+    color: black;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.service-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.service-content-1 , .service-content-2, .service-content-3, .service-content-4, .service-content-5 , .service-content-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 30px;
+}
+
+.service-content-1 h1 , .service-content-2 h1 , .service-content-3 h1 , .service-content-4 h1 , .service-content-5 h1 , .service-content-6 h1 {
+    font-size: 2.5rem;
+    font-weight: 350;
+    margin: 0;
+    color: black;
+}
+
+.service-content-1 p , .service-content-2 p , .service-content-3 p , .service-content-4 p , .service-content-5 p , .service-content-6 p {
+    font-size: 1.2rem;
+    color: rgb(133, 131, 131);
+    line-height: 1.2;
+}

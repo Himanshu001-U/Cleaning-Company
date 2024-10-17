@@ -1,0 +1,89 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.team p {
+    font-size: 20px;
+    margin: 0;
+    color: rgb(133, 131, 131);
+    padding: 10px;
+}
+
+.phead {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 10px;
+    color: rgb(38, 182, 248);
+}
+
+.team h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 10px;
+    /* text-align: center; */
+}
+
+.team ul li {
+    /* margin: 0; */
+    list-style-type: none;
+    font-size: 20px;
+    color: rgb(133, 131, 131);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.team-members {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.team-members img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member1 , .member2 , .member3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    padding: 10px;
+    background-color: #f59292;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.member1:hover,.member2:hover,.member3:hover {
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+

@@ -1,0 +1,51 @@
+.training h1 {
+    font-size: 50px;
+    color: rgb(38, 182, 248);
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.training {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content {
+    margin-bottom: 30px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.content p {
+    color: rgb(133, 131, 131);
+    font-size: 20px;
+    line-height: 1.5; 
+}
+
+.content h2 {
+    font-size: 34px;
+    font-weight: 400;
+    color: rgb(38, 182, 248);
+    margin-bottom: 10px;
+}
+
+.images img {
+    padding: 30px;
+    width: 500px;
+    height: 400px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

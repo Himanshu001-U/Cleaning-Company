@@ -1,0 +1,76 @@
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+}
+
+.price h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.p1 {
+    font-size: 20px;
+     color: rgb(38, 182, 248);
+     background-color: white;
+     font-size: 28px;
+     font-weight: 400;
+     margin: 0;
+}
+
+.price p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.price-content {
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.plan2 {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.plan1 , .plan2 , .plan3 , .plan4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 550px;
+    gap: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.plan1:hover,.plan3:hover, .plan4:hover {
+    transition: background-color 0.5s ease;
+    background-color: #fdea39;
+}
+
+.plan2:hover {
+    background-color: #fdea39;
+    color: black;
+}
+
+.plan1 h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.plan1 h1 , .plan2 h1 , .plan3 h1, .plan4 h1 {
+    font-size: 58px;
+    color: blue;
+    font-weight: 900px;
+}

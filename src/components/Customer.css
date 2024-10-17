@@ -1,0 +1,42 @@
+.customer {
+    width: 100%;
+    height: 500px;
+    padding: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.box1 , .box2 , .box3 {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #137dc4;
+    box-shadow: 5px 5px 15px rgb(241, 243, 235);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.box1:hover , .box2:hover , .box3:hover {
+    background-color: #3f51b5;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgb(241, 243, 235);
+    transform: scale(1.02);
+    
+}
